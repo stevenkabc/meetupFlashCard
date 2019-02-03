@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.com.apple.timemachine.supported .history/
+.history/
+.com.apple.timemachine.supported

@@ -1,25 +1,38 @@
 {
-  "name": "meetup-clash-cards",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+	"name": "meetup-clash-cards",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"axios": "^0.18.0",
+		"axios-jsonp": "^1.0.2",
+		"fetch-jsonp-polyfill": "^1.1.5",
+		"jsonp": "^0.2.1",
+		"react": "^16.6.3",
+		"react-dom": "^16.6.3",
+		"react-scripts": "^2.1.3"
+	},
+	"proxy": "https://api.meetup.com",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"devDependencies": {
+		"@types/react": "^16.7.18",
+		"@types/react-dom": "^16.0.11",
+		"eslint-plugin-prettier": "^3.0.1",
+		"husky": "^1.3.1",
+		"prettier": "^1.15.3",
+		"pretty-quick": "^1.8.0"
+	}
 }
